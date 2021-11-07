@@ -1,4 +1,4 @@
-# Codacy configuration file for Invoice Ninja
+# Codacy configuration file for Hype Sri Lanka
 
 exclude_paths:
   - 'public/css/*'

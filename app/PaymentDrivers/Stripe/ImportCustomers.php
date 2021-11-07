@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Hype Sri Lanka (https://hypesl.org).
  *
- * @link https://github.com/invoiceninja/invoiceninja source repository
+ * @link https://github.com/artslabcreatives/invoiceninja source repository
  *
- * @copyright Copyright (c) 2021. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2021. Hype Sri Lanka (https://hypesl.org)
  *
  * @license https://www.elastic.co/licensing/elastic-license
 */

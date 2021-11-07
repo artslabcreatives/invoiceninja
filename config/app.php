@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Invoice Ninja'),
+    'name' => env('APP_NAME', 'Hype Sri Lanka Pacioli'),
 
     /*
     |--------------------------------------------------------------------------

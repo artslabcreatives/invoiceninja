@@ -1,10 +1,10 @@
 <?php
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Hype Sri Lanka (https://hypesl.org).
  *
- * @link https://github.com/invoiceninja/invoiceninja source repository
+ * @link https://github.com/artslabcreatives/invoiceninja source repository
  *
- * @copyright Copyright (c) 2021. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2021. Hype Sri Lanka LLC (https://hypesl.org)
  *
  * @license https://opensource.org/licenses/AAL
  */
@@ -338,11 +338,11 @@ class ImportCsvTest extends TestCase
         if (count($data) > 0) {
             $headers = $data[0];
 
-            // Remove Invoice Ninja headers
+            // Remove Hype Sri Lanka headers
             if (count($headers) && count($data) > 4) {
                 $firstCell = $headers[0];
                 if (strstr($firstCell, config('ninja.app_name'))) {
-                    array_shift($data); // Invoice Ninja...
+                    array_shift($data); // Hype Sri Lanka...
                     array_shift($data); // <blank line>
                     array_shift($data); // Enitty Type Header
                 }

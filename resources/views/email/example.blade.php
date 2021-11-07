@@ -13,7 +13,7 @@
 
 Hello, this is really tiny template. We just want to inform you that upgrade has been completed.
 
-@component('email.components.button', ['url' => 'https://invoiceninja.com', 'show_link' => true])
+@component('email.components.button', ['url' => 'https://hypesl.org', 'show_link' => true])
     Visit InvoiceNinja
 @endcomponent
 
@@ -29,7 +29,7 @@ Hello, this is really tiny template. We just want to inform you that upgrade has
 @endslot
 
 @slot('footer')
-    @component('email.components.footer', ['url' => 'https://invoiceninja.com', 'url_text' => '&copy; InvoiceNinja'])
+    @component('email.components.footer', ['url' => 'https://hypesl.org', 'url_text' => '&copy; InvoiceNinja'])
         For any info, please visit InvoiceNinja.
     @endcomponent
 @endslot

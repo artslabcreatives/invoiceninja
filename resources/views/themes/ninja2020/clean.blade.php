@@ -32,7 +32,7 @@
 
         <!-- Title -->
         @auth()
-            <title>@yield('meta_title', '') — {{ auth('contact')->user()->user->account->isPaid() ? auth('contact')->user()->company->present()->name() : 'Invoice Ninja' }}</title>
+            <title>@yield('meta_title', '') — {{ auth('contact')->user()->user->account->isPaid() ? auth('contact')->user()->company->present()->name() : 'Hype Sri Lanka' }}</title>
         @endauth
 
         @guest

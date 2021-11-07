@@ -1,10 +1,10 @@
 <?php
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Hype Sri Lanka (https://hypesl.org).
  *
- * @link https://github.com/invoiceninja/invoiceninja source repository
+ * @link https://github.com/artslabcreatives/invoiceninja source repository
  *
- * @copyright Copyright (c) 2021. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2021. Hype Sri Lanka LLC (https://hypesl.org)
  *
  * @license https://opensource.org/licenses/AAL
  */
@@ -102,7 +102,7 @@ class PdfMakerTest extends TestCase
             'variables' => [
                 'labels' => [],
                 'values' => [
-                    '$company.name' => 'Invoice Ninja',
+                    '$company.name' => 'Hype Sri Lanka',
                 ],
             ],
         ];
@@ -114,8 +114,8 @@ class PdfMakerTest extends TestCase
             ->design($design)
             ->build();
 
-        $this->assertStringContainsString('Invoice Ninja', $maker->getCompiledHTML());
-        $this->assertStringContainsString('Invoice Ninja', $maker->getSection('header'));
+        $this->assertStringContainsString('Hype Sri Lanka', $maker->getCompiledHTML());
+        $this->assertStringContainsString('Hype Sri Lanka', $maker->getSection('header'));
     }
 
     public function testElementContentIsGenerated()
@@ -138,7 +138,7 @@ class PdfMakerTest extends TestCase
                             ['element' => 'td', 'content' => '$email'],
                             ['element' => 'td', 'content' => '$country', 'elements' => [
                                 ['element' => 'a', 'content' => 'Click here for a link', 'properties' => [
-                                    'href' => 'https://github.com/invoiceninja/invoiceninja',
+                                    'href' => 'https://github.com/artslabcreatives/invoiceninja',
                                 ]],
                             ]],
                         ]],
@@ -148,7 +148,7 @@ class PdfMakerTest extends TestCase
             'variables' => [
                 'labels' => [],
                 'values' => [
-                    '$company' => 'Invoice Ninja',
+                    '$company' => 'Hype Sri Lanka',
                     '$email' => 'contact@invoiceninja.com',
                     '$country' => 'UK',
                 ],
@@ -254,7 +254,7 @@ class PdfMakerTest extends TestCase
             'variables' => [
                 'labels' => [],
                 'values' => [
-                    '$title' => 'Invoice Ninja',
+                    '$title' => 'Hype Sri Lanka',
                 ],
             ],
         ];

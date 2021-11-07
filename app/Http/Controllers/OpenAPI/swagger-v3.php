@@ -3,8 +3,8 @@
  * @OA\OpenApi(
  *     @OA\Info(
  *         version="1.0.30",
- *         title="Invoice Ninja",
- *         description="Invoice Ninja. Open Source Invoicing lives here. ",
+ *         title="Hype Sri Lanka",
+ *         description="Hype Sri Lanka. Open Source Invoicing lives here. ",
  *         termsOfService="http://swagger.io/terms/",
  *         @OA\Contact(
  *             email="contact@invoiceninja.com"

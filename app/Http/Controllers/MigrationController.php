@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Hype Sri Lanka (https://hypesl.org).
  *
- * @link https://github.com/invoiceninja/invoiceninja source repository
+ * @link https://github.com/artslabcreatives/invoiceninja source repository
  *
- * @copyright Copyright (c) 2021. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2021. Hype Sri Lanka (https://hypesl.org)
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -211,8 +211,8 @@ class MigrationController extends BaseController
      *      path="/api/v1/migration/start",
      *      operationId="postStartMigration",
      *      tags={"migration"},
-     *      summary="Starts the migration from previous version of Invoice Ninja",
-     *      description="Starts the migration from previous version of Invoice Ninja",
+     *      summary="Starts the migration from previous version of Hype Sri Lanka",
+     *      description="Starts the migration from previous version of Hype Sri Lanka",
      *      @OA\Parameter(ref="#/components/parameters/X-Api-Secret"),
      *      @OA\Parameter(ref="#/components/parameters/X-Api-Token"),
      *      @OA\Parameter(ref="#/components/parameters/X-Requested-With"),

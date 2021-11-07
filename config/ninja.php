@@ -8,7 +8,7 @@ return [
     'production' => env('NINJA_PROD', false),
     'license'   => env('NINJA_LICENSE', ''),
     'version_url' => 'https://pdf.invoicing.co/api/version',
-    'app_name' => env('APP_NAME', 'Invoice Ninja'),
+    'app_name' => env('APP_NAME', 'Hype Sri Lanka'),
     'app_env' => env('APP_ENV', 'selfhosted'),
     'debug_enabled' => env('APP_DEBUG', false),
     'require_https' => env('REQUIRE_HTTPS', true),

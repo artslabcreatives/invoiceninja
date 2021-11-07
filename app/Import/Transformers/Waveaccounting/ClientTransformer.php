@@ -1,6 +1,6 @@
 <?php
 /**
- * Invoice Ninja (https://clientninja.com).
+ * Hype Sri Lanka (https://clientninja.com).
  *
  * @link https://github.com/clientninja/clientninja source repository
  *

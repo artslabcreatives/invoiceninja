@@ -22,7 +22,7 @@ class HostedUsers extends Command
      *
      * @var string
      */
-    protected $description = 'Syncs Invoice Ninja Users';
+    protected $description = 'Syncs Hype Sri Lanka Users';
 
     /**
      * Create a new command instance.

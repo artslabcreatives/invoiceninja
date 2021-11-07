@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Hype Sri Lanka (https://hypesl.org).
  *
- * @link https://github.com/invoiceninja/invoiceninja source repository
+ * @link https://github.com/artslabcreatives/invoiceninja source repository
  *
- * @copyright Copyright (c) 2021. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2021. Hype Sri Lanka LLC (https://hypesl.org)
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -43,7 +43,7 @@ class CreditCardTest extends DuskTestCase
                 ->clickLink('Credit Card')
                 ->withinFrame('iframe', function (Browser $browser) {
                     $browser
-                        ->type('EWAY_CARDNAME', 'Invoice Ninja')
+                        ->type('EWAY_CARDNAME', 'Hype Sri Lanka')
                         ->type('EWAY_CARDNUMBER', '4111 1111 1111 1111')
                         ->type('EWAY_CARDEXPIRY', '04/22')
                         ->type('EWAY_CARDCVN', '100');
@@ -63,7 +63,7 @@ class CreditCardTest extends DuskTestCase
                 ->clickLink('Credit Card')
                 ->withinFrame('iframe', function (Browser $browser) {
                     $browser
-                        ->type('EWAY_CARDNAME', 'Invoice Ninja')
+                        ->type('EWAY_CARDNAME', 'Hype Sri Lanka')
                         ->type('EWAY_CARDNUMBER', '4111 1111 1111 1111')
                         ->type('EWAY_CARDEXPIRY', '04/22')
                         ->type('EWAY_CARDCVN', '100');
@@ -113,7 +113,7 @@ class CreditCardTest extends DuskTestCase
                 ->clickLink('Credit Card')
                 ->withinFrame('iframe', function (Browser $browser) {
                     $browser
-                        ->type('EWAY_CARDNAME', 'Invoice Ninja')
+                        ->type('EWAY_CARDNAME', 'Hype Sri Lanka')
                         ->type('EWAY_CARDNUMBER', '4111 1111 1111 1111')
                         ->type('EWAY_CARDEXPIRY', '04/22')
                         ->type('EWAY_CARDCVN', '100');

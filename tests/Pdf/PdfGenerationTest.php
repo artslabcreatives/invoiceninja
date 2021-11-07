@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Hype Sri Lanka (https://hypesl.org).
  *
- * @link https://github.com/invoiceninja/invoiceninja source repository
+ * @link https://github.com/artslabcreatives/invoiceninja source repository
  *
- * @copyright Copyright (c) 2021. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2021. Hype Sri Lanka LLC (https://hypesl.org)
  *
  * @license https://opensource.org/licenses/AAL
  */
@@ -40,7 +40,7 @@ class PdfGenerationTest extends TestCase
         }
 
         $pdf = $pdf
-            ->setHtml('<h1>Invoice Ninja</h1>')
+            ->setHtml('<h1>Hype Sri Lanka</h1>')
             ->generate();
 
         $this->assertNotNull($pdf);

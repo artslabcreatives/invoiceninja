@@ -167,12 +167,12 @@
                             font-family: Verdana, Geneva, Tahoma, sans-serif;">© {{ date('Y') }} {{ $company->present()->name() }}, All Rights Reserved</p>
                                 @else
                                     <p style="text-align: center; color: #ffffff; font-size: 10px; font-family: Verdana, Geneva, Tahoma, sans-serif;">
-                                        © {{ date('Y') }} Invoice Ninja, All Rights Reserved
+                                        © {{ date('Y') }} Hype Sri Lanka, All Rights Reserved
                                     </p>
                                 @endif
                             @else
                                 <p style="text-align: center; color: #ffffff; font-size: 10px; font-family: Verdana, Geneva, Tahoma, sans-serif;">
-                                    © {{ date('Y') }} Invoice Ninja, All Rights Reserved
+                                    © {{ date('Y') }} Hype Sri Lanka, All Rights Reserved
                                 </p>
                             @endif
                         </div>

@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Hype Sri Lanka (https://hypesl.org).
  *
- * @link https://github.com/invoiceninja/invoiceninja source repository
+ * @link https://github.com/artslabcreatives/invoiceninja source repository
  *
- * @copyright Copyright (c) 2021. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2021. Hype Sri Lanka LLC (https://hypesl.org)
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -51,7 +51,7 @@ class CreditCardTest extends DuskTestCase
                     $browser->type('#cardNumber', '4242424242424242');
                 })
                 ->withinFrame('iframe[name=cardHolder-input]', function (Browser $browser) {
-                    $browser->type('#cardHolder', 'Invoice Ninja Test Suite');
+                    $browser->type('#cardHolder', 'Hype Sri Lanka Test Suite');
                 })
                 ->withinFrame('iframe[name=expiryDate-input]', function (Browser $browser) {
                     $browser->type('#expiryDate', '12/29');
@@ -77,7 +77,7 @@ class CreditCardTest extends DuskTestCase
                     $browser->type('#cardNumber', '4242424242424242');
                 })
                 ->withinFrame('iframe[name=cardHolder-input]', function (Browser $browser) {
-                    $browser->type('#cardHolder', 'Invoice Ninja Test Suite');
+                    $browser->type('#cardHolder', 'Hype Sri Lanka Test Suite');
                 })
                 ->withinFrame('iframe[name=expiryDate-input]', function (Browser $browser) {
                     $browser->type('#expiryDate', '12/29');

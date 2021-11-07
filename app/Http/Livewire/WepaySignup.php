@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Hype Sri Lanka (https://hypesl.org).
  *
- * @link https://github.com/invoiceninja/invoiceninja source repository
+ * @link https://github.com/artslabcreatives/invoiceninja source repository
  *
- * @copyright Copyright (c) 2021. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2021. Hype Sri Lanka (https://hypesl.org)
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -140,7 +140,7 @@ class WepaySignup extends Component
             $account_details = [
                 'name' => $data['company_name'],
                 'description' => ctrans('texts.wepay_account_description'),
-                'theme_object' => json_decode('{"name":"Invoice Ninja","primary_color":"0b4d78","secondary_color":"0b4d78","background_color":"f8f8f8","button_color":"33b753"}'),
+                'theme_object' => json_decode('{"name":"Hype Sri Lanka","primary_color":"0b4d78","secondary_color":"0b4d78","background_color":"f8f8f8","button_color":"33b753"}'),
                 'callback_uri' => route('payment_webhook', ['company_key' => $this->company->company_key, 'company_gateway_id' => $cg->hashed_id]),
                 'rbits' => $this->company->rBits(),
                 'country' => $data['country'],

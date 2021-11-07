@@ -2,7 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
 
-    <!-- Source: https://github.com/invoiceninja/invoiceninja -->
+    <!-- Source: https://github.com/artslabcreatives/invoiceninja -->
     <!-- Error: {{ session('error') }} -->
 
     @if (config('services.analytics.tracking_id'))
@@ -26,7 +26,7 @@
     @endif
 
     <meta charset="utf-8">
-    <title>@yield('meta_title', 'Invoice Ninja') | {{ config('app.name') }}</title>
+    <title>@yield('meta_title', 'Hype Sri Lanka') | {{ config('app.name') }}</title>
     <meta name="description" content="@yield('meta_description')"/>
     <link href="{{ asset('favicon.png') }}" rel="shortcut icon" type="image/png">
 

@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Hype Sri Lanka (https://hypesl.org).
  *
- * @link https://github.com/invoiceninja/invoiceninja source repository
+ * @link https://github.com/artslabcreatives/invoiceninja source repository
  *
- * @copyright Copyright (c) 2021. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2021. Hype Sri Lanka (https://hypesl.org)
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -223,7 +223,7 @@ class CreditCard implements MethodInterface
         $body->setAddress($billing_address);
         $body->setPhoneNumber($this->square_driver->client->phone);
         $body->setReferenceId($this->square_driver->client->number);
-        $body->setNote('Created by Invoice Ninja.');
+        $body->setNote('Created by Hype Sri Lanka.');
 
         $api_response = $this->square_driver
                              ->init()

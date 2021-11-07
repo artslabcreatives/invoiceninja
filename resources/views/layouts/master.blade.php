@@ -2,7 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
 
-    <!-- Source: https://github.com/invoiceninja/invoiceninja -->
+    <!-- Source: https://github.com/artslabcreatives/invoiceninja -->
     <!-- Error: {{ session('error') }} -->
 
     @if (config('services.analytics.tracking_id'))
@@ -26,15 +26,15 @@
     @endif
 
     <meta charset="utf-8">
-    <title>@yield('meta_title', 'Invoice Ninja') | {{ config('app.name') }}</title>
+    <title>@yield('meta_title', 'Hype Sri Lanka') | {{ config('app.name') }}</title>
     <meta name="description" content="@yield('meta_description')"/>
     <link href="{{ asset('favicon.png') }}" rel="shortcut icon" type="image/png">
 
     <!--
     TODO Setup social sharing info
-    <meta property="og:site_name" content="Invoice Ninja"/>
+    <meta property="og:site_name" content="Hype Sri Lanka"/>
     <meta property="og:url" content="{{ config('ninja.app_url') }}"/>
-    <meta property="og:title" content="Invoice Ninja"/>
+    <meta property="og:title" content="Hype Sri Lanka"/>
     <meta property="og:image" content="{{ config('ninja.app_url') }}images/logo.png"/>
     <meta property="og:description" content="Create. Send. Get Paid."/>
     --/>
@@ -47,8 +47,8 @@
     <link rel="manifest" href="{{ url('manifest.json') }}">
     <link rel="mask-icon" href="{{ url('safari-pinned-tab.svg') }}" color="#3bc65c">
     <link rel="shortcut icon" href="{{ url('favicon.ico') }}">
-    <meta name="apple-mobile-web-app-title" content="Invoice Ninja">
-    <meta name="application-name" content="Invoice Ninja">
+    <meta name="apple-mobile-web-app-title" content="Hype Sri Lanka">
+    <meta name="application-name" content="Hype Sri Lanka">
     <meta name="theme-color" content="#ffffff">
     -->
 

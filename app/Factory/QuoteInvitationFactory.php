@@ -1,10 +1,10 @@
 <?php
 /**
- * Quote Ninja (https://invoiceninja.com).
+ * Quote Ninja (https://hypesl.org).
  *
- * @link https://github.com/invoiceninja/invoiceninja source repository
+ * @link https://github.com/artslabcreatives/invoiceninja source repository
  *
- * @copyright Copyright (c) 2021. Quote Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2021. Quote Ninja LLC (https://hypesl.org)
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */

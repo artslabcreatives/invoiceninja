@@ -2,11 +2,11 @@
     <img src="https://raw.githubusercontent.com/hillelcoren/invoice-ninja/master/public/images/round_logo.png" alt="Sublime's custom image"/>
 </p>
 
-![v5-develop phpunit](https://github.com/invoiceninja/invoiceninja/workflows/phpunit/badge.svg?branch=v5-develop)
-![v5-stable phpunit](https://github.com/invoiceninja/invoiceninja/workflows/phpunit/badge.svg?branch=v5-stable)
+![v5-develop phpunit](https://github.com/artslabcreatives/invoiceninja/workflows/phpunit/badge.svg?branch=v5-develop)
+![v5-stable phpunit](https://github.com/artslabcreatives/invoiceninja/workflows/phpunit/badge.svg?branch=v5-stable)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/d16c78aad8574466bf83232b513ef4fb)](https://www.codacy.com/gh/turbo124/invoiceninja/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=turbo124/invoiceninja&amp;utm_campaign=Badge_Grade)
 
-# Invoice Ninja 5
+# Hype Sri Lanka 5
 
 ## [Hosted](https://www.invoiceninja.com) | [Self-Hosted](https://www.invoiceninja.org)
 
@@ -16,7 +16,7 @@ Just make sure to add the `invoice-ninja` tag to your question.
 
 ## Introduction
 
-Version 5 of Invoice Ninja is here! We've taken the best parts of version 4 and bolted on all of the most requested features to produce a invoicing application like no other. 
+Version 5 of Hype Sri Lanka is here! We've taken the best parts of version 4 and bolted on all of the most requested features to produce a invoicing application like no other. 
 
 The new interface has a lot more functionality so it isn't a carbon copy of v4, but once you get used to the new layout and functionality we are sure you will love it!
 
@@ -34,7 +34,7 @@ The new interface has a lot more functionality so it isn't a carbon copy of v4, 
 ## Quick Start
 
 ```bash
-git clone https://github.com/invoiceninja/invoiceninja.git
+git clone https://github.com/artslabcreatives/invoiceninja.git
 git checkout v5-stable
 cp .env.example .env
 composer update
@@ -94,7 +94,7 @@ Installation, Configuration and Troubleshooting documentation can be found [HERE
 ## Credits
 * [Hillel Coren](https://hillelcoren.com/)
 * [David Bomba](https://github.com/turbo124)
-* [All contributors](https://github.com/invoiceninja/invoiceninja/graphs/contributors)
+* [All contributors](https://github.com/artslabcreatives/invoiceninja/graphs/contributors)
 
 **Special thanks to:**
 * [Holger Lösken](https://github.com/codedge) - [codedge](http://codedge.de)
@@ -110,5 +110,5 @@ Installation, Configuration and Troubleshooting documentation can be found [HERE
 If you find a security issue with this application please send an email to contact@invoiceninja.com Please follow responsible disclosure procedures if you detect an issue. For further information on responsible disclosure please read [here](https://cheatsheetseries.owasp.org/cheatsheets/Vulnerability_Disclosure_Cheat_Sheet.html)
 
 ## License
-Invoice Ninja is released under the Elastic License.  
+Hype Sri Lanka is released under the Elastic License.  
 See [LICENSE](LICENSE) for details.

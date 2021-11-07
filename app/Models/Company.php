@@ -1,10 +1,10 @@
 <?php
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Hype Sri Lanka (https://hypesl.org).
  *
- * @link https://github.com/invoiceninja/invoiceninja source repository
+ * @link https://github.com/artslabcreatives/invoiceninja source repository
  *
- * @copyright Copyright (c) 2021. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2021. Hype Sri Lanka (https://hypesl.org)
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -520,7 +520,7 @@ class Company extends BaseModel
         $data[] = $this->createRBit('email', 'user', ['email' => $user->email]);
         $data[] = $this->createRBit('phone', 'user', ['phone' => $user->phone]);
         $data[] = $this->createRBit('website_uri', 'user', ['uri' => $this->settings->website]);
-        $data[] = $this->createRBit('external_account', 'partner_database', ['is_partner_account' => 'yes', 'account_type' => 'Invoice Ninja', 'create_time' => time()]);
+        $data[] = $this->createRBit('external_account', 'partner_database', ['is_partner_account' => 'yes', 'account_type' => 'Hype Sri Lanka', 'create_time' => time()]);
 
         return $data;
     }

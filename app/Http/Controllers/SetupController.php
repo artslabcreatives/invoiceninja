@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Hype Sri Lanka (https://hypesl.org).
  *
- * @link https://github.com/invoiceninja/invoiceninja source repository
+ * @link https://github.com/artslabcreatives/invoiceninja source repository
  *
- * @copyright Copyright (c) 2021. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2021. Hype Sri Lanka (https://hypesl.org)
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -262,7 +262,7 @@ class SetupController extends Controller
             }
 
             $pdf = $pdf
-                ->setHtml('GENERATING PDFs WORKS! Thank you for using Invoice Ninja!')
+                ->setHtml('GENERATING PDFs WORKS! Thank you for using Hype Sri Lanka!')
                 ->generate();
 
             Storage::disk(config('filesystems.default'))->put('test.pdf', $pdf);

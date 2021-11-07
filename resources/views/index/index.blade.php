@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html data-report-errors="{{ $report_errors }}" data-rc="{{ $rc }}" data-user-agent="{{ $user_agent }}" data-login="{{ $login }}">
 <head>
-    <!-- Source: https://github.com/invoiceninja/invoiceninja -->
+    <!-- Source: https://github.com/artslabcreatives/invoiceninja -->
     <!-- Version: {{ config('ninja.app_version') }} -->
   <meta charset="UTF-8">
-  <title>Invoice Ninja</title>
+  <title>Hype Sri Lanka</title>
   <meta name="google-signin-client_id" content="{{ config('services.google.client_id') }}">
   <link rel="manifest" href="manifest.json?v={{ config('ninja.app_version') }}">
   <script src="{{ asset('js/pdf.min.js') }}"></script>
