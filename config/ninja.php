@@ -2,9 +2,9 @@
 
 return [
 
-    'web_url' => 'https://www.invoiceninja.com',
+    'web_url' => 'https://www.hypesl.org',
     'admin_token' => env('NINJA_ADMIN_TOKEN', ''),
-    'license_url' => 'https://app.invoiceninja.com',
+    'license_url' => 'https://finance.hypesl.org',
     'production' => env('NINJA_PROD', false),
     'license'   => env('NINJA_LICENSE', ''),
     'version_url' => 'https://pdf.invoicing.co/api/version',
@@ -13,7 +13,7 @@ return [
     'debug_enabled' => env('APP_DEBUG', false),
     'require_https' => env('REQUIRE_HTTPS', true),
     'app_url' => rtrim(env('APP_URL', ''), '/'),
-    'app_domain' => env('APP_DOMAIN', 'invoicing.co'),
+    'app_domain' => env('APP_DOMAIN', 'finance.hypesl.org'),
     'app_version' => '5.3.29',
     'app_tag' => '5.3.29',
     'minimum_client_version' => '5.0.16',
@@ -42,16 +42,16 @@ return [
     'environment' => env('NINJA_ENVIRONMENT', 'selfhost'), // 'hosted', 'development', 'selfhost', 'reseller'
 	'preconfigured_install' => env('PRECONFIGURED_INSTALL',false),
     'update_secret' => env('UPDATE_SECRET', ''),
-    // Settings used by invoiceninja.com
+    // Settings used by hypesl.org
 
     'terms_of_service_url' => [
-        'hosted' => env('TERMS_OF_SERVICE_URL', 'https://www.invoiceninja.com/terms/'),
-        'selfhost' => env('TERMS_OF_SERVICE_URL', 'https://www.invoiceninja.com/self-hosting-terms-service/'),
+        'hosted' => env('TERMS_OF_SERVICE_URL', 'https://www.hypesl.org/terms/'),
+        'selfhost' => env('TERMS_OF_SERVICE_URL', 'https://www.hypesl.org/self-hosting-terms-service/'),
     ],
 
     'privacy_policy_url' => [
-        'hosted' => env('PRIVACY_POLICY_URL', 'https://www.invoiceninja.com/privacy-policy/'),
-        'selfhost' => env('PRIVACY_POLICY_URL', 'https://www.invoiceninja.com/self-hosting-privacy-data-control/'),
+        'hosted' => env('PRIVACY_POLICY_URL', 'https://www.hypesl.org/privacy-policy/'),
+        'selfhost' => env('PRIVACY_POLICY_URL', 'https://www.hypesl.org/self-hosting-privacy-data-control/'),
     ],
 
     'db' => [
@@ -97,7 +97,7 @@ return [
     'contact' => [
         'email' => env('MAIL_FROM_ADDRESS'),
         'from_name' => env('MAIL_FROM_NAME'),
-        'ninja_official_contact' => env('NINJA_OFFICIAL_CONTACT', 'contact@invoiceninja.com'),
+        'ninja_official_contact' => env('NINJA_OFFICIAL_CONTACT', 'contact@hypesl.org'),
     ],
     'cached_tables' => [
         'banks' => App\Models\Bank::class,

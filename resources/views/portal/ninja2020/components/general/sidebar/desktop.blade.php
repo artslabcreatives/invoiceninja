@@ -27,14 +27,14 @@
             @if(!auth('contact')->user()->user->account->isPaid())
                 <div class="flex-shrink-0 flex bg-white p-4 justify-center">
                     <div class="flex items-center">
-                        <a target="_blank" href="https://www.facebook.com/invoiceninja/">
+                        <a target="_blank" href="https://hypesl.org/">
                             <svg class="text-gray-900 hover:text-gray-300 mr-4" xmlns="http://www.w3.org/2000/svg"
                                  width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
                             </svg>
                         </a>
-                        <a target="_blank" href="https://twitter.com/invoiceninja">
+                        <a target="_blank" href="https://twitter.com/hype_srilanka">
                             <svg class="text-gray-900 hover:text-gray-300 mr-4" xmlns="http://www.w3.org/2000/svg"
                                  width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round">

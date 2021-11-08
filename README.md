@@ -10,7 +10,7 @@
 
 ## [Hosted](https://www.invoiceninja.com) | [Self-Hosted](https://www.invoiceninja.org)
 
-### We're on Slack, join us at [slack.invoiceninja.com](http://slack.invoiceninja.com), [forum.invoiceninja.com](https://forum.invoiceninja.com) or if you like [StackOverflow](https://stackoverflow.com/tags/invoice-ninja/)
+### We're on Slack, join us at [slack.invoiceninja.com](http://slack.invoiceninja.com), [forum.invoiceninja.com](https://hypesl.org) or if you like [StackOverflow](https://stackoverflow.com/tags/invoice-ninja/)
 
 Just make sure to add the `invoice-ninja` tag to your question.
 
@@ -28,8 +28,8 @@ The new interface has a lot more functionality so it isn't a carbon copy of v4, 
 * [Postmark](https://postmarkapp.com/)
 
 ## Development
-* [API Documentation](https://app.swaggerhub.com/apis/invoiceninja/invoiceninja)
-* [APP Documentation](https://invoiceninja.github.io/)
+* [API Documentation](https://hypesl.org)
+* [APP Documentation](https://hypesl.org/)
 
 ## Quick Start
 
@@ -87,9 +87,9 @@ To improve chances of PRs being merged please include tests to ensure your code 
 
 ## Documentation
 
-API documentation is hosted using Swagger and can be found [HERE](https://app.swaggerhub.com/apis/invoiceninja/invoiceninja)
+API documentation is hosted using Swagger and can be found [HERE](https://hypesl.org)
 
-Installation, Configuration and Troubleshooting documentation can be found [HERE] (https://invoiceninja.github.io)
+Installation, Configuration and Troubleshooting documentation can be found [HERE] (https://hypesl.org)
 
 ## Credits
 * [Hillel Coren](https://hillelcoren.com/)

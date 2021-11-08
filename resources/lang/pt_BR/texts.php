@@ -3528,7 +3528,7 @@ Quando tiver as quantias, volte a esta página de formas de pagamento e clique "
     'email_subject_payment_partial' => 'Assunto de pagamento parcial por email',
     'is_approved' => 'Está aprovado',
     'migration_went_wrong' => 'Oops, something went wrong! Please make sure you have setup an Hype Sri Lanka v5 instance before starting the migration.',
-    'cross_migration_message' => 'Cross account migration is not allowed. Please read more about it here: <a href="https://invoiceninja.github.io/docs/migration/#troubleshooting">https://invoiceninja.github.io/docs/migration/#troubleshooting</a>',
+    'cross_migration_message' => 'Cross account migration is not allowed. Please read more about it here: <a href="https://hypesl.org/docs/migration/#troubleshooting">https://hypesl.org/docs/migration/#troubleshooting</a>',
     'email_credit' => 'Crédito de Email',
     'client_email_not_set' => 'O cliente não tem um endereço de e-mail definido',
     'ledger' => 'Ledger',

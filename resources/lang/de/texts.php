@@ -3537,7 +3537,7 @@ Sobald Sie die Beträge erhalten haben, kommen Sie bitte wieder zurück zu diese
     'is_approved' => 'Wurde angenommen',
     'migration_went_wrong' => 'Upps, da ist etwas schiefgelaufen! Stellen Sie sicher, dass Sie InvoiceNinja v5 richtig eingerichtet haben, bevor Sie die Migration starten.',
     'cross_migration_message' => 'Kontoübergreifende Migration ist nicht erlaubt. Mehr Informationen finden Sie hier:
-https://invoiceninja.github.io/docs/migration/#troubleshooting',
+https://hypesl.org/docs/migration/#troubleshooting',
     'email_credit' => 'Guthaben per E-Mail versenden',
     'client_email_not_set' => 'Es wurde noch keine E-Mail Adresse beim Kunden eingetragen.',
     'ledger' => 'Hauptbuch',

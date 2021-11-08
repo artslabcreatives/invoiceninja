@@ -3526,7 +3526,7 @@ Lorsque les montant apparaîtront sur votre relevé, veuillez revenir sur cette 
     'email_subject_payment_partial' => 'Sujet du courriel de paiement partiel',
     'is_approved' => 'Est approuvé',
     'migration_went_wrong' => 'Oups, quelque chose n\'a pas bien fonctionné! Veuillez vous assurer que vous avez bien configuré une instance de Hype Sri Lanka v5 avant de commencer la migration.',
-    'cross_migration_message' => 'La migration entre comptes n\'est pas autorisée. Pour en savoir plus: <a href="https://invoiceninja.github.io/cross-site-migration.html">https://invoiceninja.github.io/docs/migration/#troubleshooting</a>',
+    'cross_migration_message' => 'La migration entre comptes n\'est pas autorisée. Pour en savoir plus: <a href="https://hypesl.org/cross-site-migration.html">https://hypesl.org/docs/migration/#troubleshooting</a>',
     'email_credit' => 'Crédit par courriel',
     'client_email_not_set' => 'Le client n\'a pas d\'adresse courriel définie',
     'ledger' => 'Grand livre',

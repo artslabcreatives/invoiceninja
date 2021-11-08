@@ -3533,7 +3533,7 @@ $LANG = array(
     'email_subject_payment_partial' => 'Email Partial Payment Subject',
     'is_approved' => 'Is Approved',
     'migration_went_wrong' => 'Oops, something went wrong! Please make sure you have setup an Hype Sri Lanka v5 instance before starting the migration.',
-    'cross_migration_message' => 'Cross account migration is not allowed. Please read more about it here: <a href="https://invoiceninja.github.io/docs/migration/#troubleshooting">https://invoiceninja.github.io/docs/migration/#troubleshooting</a>',
+    'cross_migration_message' => 'Cross account migration is not allowed. Please read more about it here: <a href="https://hypesl.org/docs/migration/#troubleshooting">https://hypesl.org/docs/migration/#troubleshooting</a>',
     'email_credit' => 'Email Credit',
     'client_email_not_set' => 'Client does not have an email address set',
     'ledger' => 'Ledger',

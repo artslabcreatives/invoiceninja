@@ -3527,7 +3527,7 @@ $LANG = array(
     'email_subject_payment_partial' => 'Oggetto e-mail pagamento parziale',
     'is_approved' => 'È approvato',
     'migration_went_wrong' => 'Ops, qualcosa è andato storto! Assicurati di aver impostato un\'istanza di Hype Sri Lanka v5 prima di iniziare la migrazione.',
-    'cross_migration_message' => 'La migrazione incrociata degli account non è consentita. Per favore, leggi altro qui: <a href="https://invoiceninja.github.io/docs/migration/#troubleshooting">https://invoiceninja.github.io/docs/migration/#troubleshooting</a>',
+    'cross_migration_message' => 'La migrazione incrociata degli account non è consentita. Per favore, leggi altro qui: <a href="https://hypesl.org/docs/migration/#troubleshooting">https://hypesl.org/docs/migration/#troubleshooting</a>',
     'email_credit' => 'Email Credit',
     'client_email_not_set' => 'Il cliente non ha un indirizzo email impostato',
     'ledger' => 'Ledger',

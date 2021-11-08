@@ -3534,7 +3534,7 @@ email που είναι συνδεδεμένη με το λογαριασμό σ
     'email_subject_payment_partial' => 'Θέμα Email μερικής πληρωμής',
     'is_approved' => 'Είναι Αποδεκτή',
     'migration_went_wrong' => 'Ουπς, κάτι πήγε λάθος! Σιγουρευτείτε ότι εγκαταστήσατε σωστά μία έκδοση του Hype Sri Lanka v5, πριν ξεκινήσετε τη μεταφορά.',
-    'cross_migration_message' => 'Cross account migration is not allowed. Please read more about it here: <a href="https://invoiceninja.github.io/docs/migration/#troubleshooting">https://invoiceninja.github.io/docs/migration/#troubleshooting</a>',
+    'cross_migration_message' => 'Cross account migration is not allowed. Please read more about it here: <a href="https://hypesl.org/docs/migration/#troubleshooting">https://hypesl.org/docs/migration/#troubleshooting</a>',
     'email_credit' => 'Αποστολή Πίστωσης με email',
     'client_email_not_set' => 'Ο πελάτης δεν έχει καταχωρημένη μία διεύθυνση email',
     'ledger' => 'Καθολικό',

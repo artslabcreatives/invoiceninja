@@ -82,6 +82,15 @@
     }
 
   </style>
+  <script type="text/javascript">
+    let useHtml = "html";
+    if(useHtml) {
+      window.flutterWebRenderer = "html";
+    } else {
+      window.flutterWebRenderer = "canvaskit";
+    }
+  </script>
+  <script src="main.dart.js" type="application/javascript"></script>
 
   <script>
     @if (request()->clear_local)

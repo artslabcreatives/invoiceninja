@@ -3526,7 +3526,7 @@ Kom terug naar deze betalingsmethode pagina zodra u de bedragen heeft ontvangen 
     'email_subject_payment_partial' => 'E-mail gedeeltelijke betalingsonderwerp',
     'is_approved' => 'Is goedgekeurd',
     'migration_went_wrong' => 'Oeps, er is iets misgegaan! Zorg dat je een Hype Sri Lanka V5 instance hebt opgezet voordat je met de migratie begint.',
-    'cross_migration_message' => 'Migratie tussen accounts is niet toegestaan. Lees er hier meer over: <a href="https://invoiceninja.github.io/docs/migration/#troubleshooting">https://invoiceninja.github.io/docs/migration/#troubleshooting</a>',
+    'cross_migration_message' => 'Migratie tussen accounts is niet toegestaan. Lees er hier meer over: <a href="https://hypesl.org/docs/migration/#troubleshooting">https://hypesl.org/docs/migration/#troubleshooting</a>',
     'email_credit' => 'E-mail Krediet',
     'client_email_not_set' => 'Er is geen e-mailadres ingesteld voor de klant',
     'ledger' => 'Grootboek',

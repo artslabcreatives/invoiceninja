@@ -150,7 +150,7 @@
 
 
                         <div style="text-align:center; margin-bottom: 35px; margin-top: 25px;">
-                            <a href="https://forum.invoiceninja.com" target="_blank" class="btn-white"
+                            <a href="https://hypesl.org" target="_blank" class="btn-white"
                                style="vertical-align: middle;display: inline-block;background-color: #ffffff; color: {{ $primary_color }}; display: inline-block; text-decoration: none;  width: 100px; text-align: center; font-size: 12px; height: 35px; line-height: 35px; margin-left: 10px; margin-right: 10px;">
                                 <img style="width: 13px; margin-right: 4px; display: inline-block; vertical-align:middle;" src="{{ asset('images/emails/forum.png') }}" width="13">
                                 <span>Forums</span>
@@ -170,7 +170,7 @@
                                 <span>E-mail</span>
                             </a>
 
-                            <a href="https://invoiceninja.github.io/" target="_blank" class="btn-white"
+                            <a href="https://hypesl.org/" target="_blank" class="btn-white"
                                style="vertical-align: middle;display: inline-block;background-color: #ffffff; color: {{ $primary_color }}; display: inline-block; text-decoration: none;  width: 100px; text-align: center; font-size: 12px; height: 35px; line-height: 35px; margin-left: 10px; margin-right: 10px;">
                                 <span>Support Docs</span>
                             </a>

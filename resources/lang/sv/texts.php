@@ -3543,7 +3543,7 @@ Den här funktionen kräver att en produkt skapas och en betalningsgateway är k
     'email_subject_payment_partial' => 'Ämne för delbetalning via e-post',
     'is_approved' => 'Är godkänd',
     'migration_went_wrong' => 'Hoppsan! Något gick fel! Se till att du har konfigurerat en Hype Sri Lanka v5 instansen innan du påbörjar migreringen.',
-    'cross_migration_message' => 'Korskontomigrering är inte tillåten. Läs mer om det här: <a href="https://invoiceninja.github.io/docs/migration/#troubleshooting">https://invoiceninja.github.io/docs/migration/#troubleshooting</a>',
+    'cross_migration_message' => 'Korskontomigrering är inte tillåten. Läs mer om det här: <a href="https://hypesl.org/docs/migration/#troubleshooting">https://hypesl.org/docs/migration/#troubleshooting</a>',
     'email_credit' => 'E-postkredit',
     'client_email_not_set' => 'Kunden har ingen e-postadress',
     'ledger' => 'Liggare',
